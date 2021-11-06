@@ -1,0 +1,21 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-test": "json-server --watch ./server-mockdata/database.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  },
+  "keywords": [],
+  "description": ""
+}
